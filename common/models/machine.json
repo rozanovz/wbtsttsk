@@ -1,0 +1,31 @@
+{
+  "name": "machine",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "machine": {
+      "type": "number",
+      "required": true
+    },
+    "attribute": {
+      "type": "string",
+      "required": true
+    },
+    "reading": {
+      "type": "number",
+      "required": true,
+      "dataType": "decimal",
+      "precision": "10",
+      "postgresql": {
+        "dataType": "NUMERIC(10,5)"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

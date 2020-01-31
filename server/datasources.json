@@ -1,1 +1,13 @@
-{}
+{
+  "postgresqlIDs": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "wbtesttask",
+    "password": "",
+    "name": "postgresqlIDs",
+    "user": "postgres",
+    "connector": "postgresql",
+    "ssl": false
+  }
+}
